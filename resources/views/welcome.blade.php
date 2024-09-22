@@ -9,3 +9,8 @@
         </div>
     </div>
 @endsection
+
+@section('scripts')
+    @parent
+    @vite('resources/js/app.js')
+@endsection
