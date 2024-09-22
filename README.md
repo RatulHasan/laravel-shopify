@@ -1,4 +1,4 @@
-## This is a template of shopify with inertia and typescript
+# The skeleton application for the Shopify App development with Laravel, Inertia.js and React.
 
 ### How to use this template
 Install composer dependencies

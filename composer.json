@@ -1,7 +1,7 @@
 {
     "name": "ratulhasan/laravel-shopify",
     "type": "project",
-    "description": "The skeleton application for the Laravel Shopify",
+    "description": "The skeleton application for the Shopify App development with Laravel, Inertia.js and React.",
     "keywords": ["laravel", "framework", "shopify"],
     "license": "MIT",
     "require": {
