@@ -30,7 +30,9 @@ SHOPIFY_API_VERSION=2024-07
 SHOPIFY_API_KEY=your-api-key
 SHOPIFY_API_SECRET=your-api-secret
 ```
-Install npm/pnpm dependencies
+Install npm/pnpm dependencies.
+If you use npm, replace pnpm with npm and delete pnpm-lock.yaml file.
+Then run
 ```bash
 pnpm install
 ```
