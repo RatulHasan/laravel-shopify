@@ -1,4 +1,11 @@
 {
+    "name": "A template for Shopify App development with Laravel and Inertia React",
+    "author": {
+        "name": "Ratul Hasan",
+        "email": "ratuljh@gmail.com",
+        "url": "https://ratulhasan.com"
+    },
+    "version": "1.0.0",
     "private": true,
     "type": "module",
     "scripts": {

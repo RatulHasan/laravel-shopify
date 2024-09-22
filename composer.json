@@ -1,8 +1,8 @@
 {
-    "name": "laravel/laravel",
+    "name": "ratulhasan/laravel-shopify",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
+    "description": "The skeleton application for the Laravel Shopify",
+    "keywords": ["laravel", "framework", "shopify"],
     "license": "MIT",
     "require": {
         "php": "^8.2",
