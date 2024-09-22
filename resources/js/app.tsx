@@ -11,5 +11,5 @@ createInertiaApp({
         createRoot(el).render(<App {...props} />)
     },
 }).then(() => {
-    console.log('App mounted')
+    // console.log('App mounted')
 });

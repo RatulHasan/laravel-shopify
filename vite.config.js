@@ -12,7 +12,7 @@ export default defineConfig({
     ],
     server: {
         hmr: {
-            host: 'review-app-inertia.test',
+            host: 'laravel-shopify.test',
         }
     },
     resolve: name => {
