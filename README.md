@@ -29,7 +29,7 @@ Update .env file with your shopify app credentials
 SHOPIFY_API_VERSION=2024-07
 SHOPIFY_API_KEY=your-api-key
 SHOPIFY_API_SECRET=your-api-secret
-
+```
 Install npm/pnpm dependencies
 ```bash
 pnpm install
