@@ -1,5 +1,8 @@
 # The skeleton application for the Shopify App development with Laravel, Inertia.js and React.
 
+![Shopify Laravel](https://github.com/user-attachments/assets/73ee7af6-efaf-40e8-a8d9-2724d402e9ce)
+
+
 ### How to use this template
 Install composer dependencies
 ```bash
