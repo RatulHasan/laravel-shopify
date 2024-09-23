@@ -1,24 +1,25 @@
 {
-    "include": ["env.d.ts", "**/*.ts", "**/*.tsx"],
     "compilerOptions": {
-        "lib": ["DOM", "DOM.Iterable", "ES2022"],
+        "allowJs": true,
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "jsx": "react-jsx",
         "strict": true,
-        "skipLibCheck": true,
         "isolatedModules": true,
-        "allowSyntheticDefaultImports": true,
-        "removeComments": false,
+        "target": "ESNext",
+        "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
         "noEmit": true,
-        "allowJs": true,
-        "resolveJsonModule": true,
-        "jsx": "react-jsx",
-        "module": "ESNext",
-        "moduleResolution": "Bundler",
-        "target": "ES2022",
-        "baseUrl": ".",
         "paths": {
-            "~/*": ["./resources/js/*"],
+            "@/*": ["./resources/js/*"],
+            "ziggy-js": ["./vendor/tightenco/ziggy"]
         },
-        "types": ["node"]
-    }
+    },
+    "include": [
+        "resources/js/**/*.ts",
+        "resources/js/**/*.tsx",
+        "resources/js/**/*.d.ts",
+        "resources/js/**/*.js",
+        "node_modules/.pnpm/@shopify+app-bridge-types@0.0.15/node_modules/@shopify/app-bridge-types/dist/index.d.ts"
+    ]
 }

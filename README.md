@@ -2,6 +2,9 @@
 
 ![Shopify Laravel](https://github.com/user-attachments/assets/73ee7af6-efaf-40e8-a8d9-2724d402e9ce)
 
+### Useful links:
+- [Migrate your app to Shopify App Bridge React 4.x.x](https://shopify.dev/docs/api/app-bridge/migration-guide)
+- [Ziggy](https://www.npmjs.com/package/ziggy-js#typescript)
 
 ### How to use this template
 Install composer dependencies
