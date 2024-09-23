@@ -1,12 +1,29 @@
-import Layout from './Layout'
-import { Head } from '@inertiajs/react'
+import React from 'react';
+import {Page, Card, Button} from '@shopify/polaris';
+import Layout from "@/Pages/Layout";
 
-export default function Welcome({ user }: { user: { name: string } }) {
+const Welcome = ({user}: { user: { name: string } }) => {
+    const handleClick = () => {
+        shopify.toast.show(`Hello ${user.name} , welcome to the Inertia App!`, {
+            duration: 5000,
+        });
+    }
     return (
-        <Layout>
-            <Head title="Welcome" />
-            <h1>Welcome</h1>
-            <p>Hello {user.name}, welcome to your first Inertia app!</p>
-        </Layout>
-    )
+        <>
+            <Page title="Inertia App">
+                <Card>
+                    <Button
+                        onClick={() => {
+                            handleClick();
+                        }}
+                    >
+                        Click Me
+                    </Button>
+                </Card>
+            </Page>
+        </>
+    );
 }
+
+Welcome.layout = (page: React.ReactNode) => <Layout children={page} />
+export default Welcome;
