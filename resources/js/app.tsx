@@ -4,6 +4,7 @@ import { createRoot } from 'react-dom/client';
 import createApp, { AppConfigV2 } from '@shopify/app-bridge';
 import { getSessionToken } from '@shopify/app-bridge/utilities';
 import { redirect } from '@shopify/app-bridge/client/redirect';
+import '@shopify/polaris/build/esm/styles.css';
 import axios from 'axios';
 
 const host = new URLSearchParams(location.search).get('host');
@@ -51,10 +52,5 @@ getSessionToken(app).then(sessionToken => {
         setup({ el, App, props }) {
             createRoot(el).render(<App {...props} />);
         },
-    }).then(() => {
-        const root = document.getElementById('app');
-        if (root) {
-            root.style.display = '';
-        }
-    })
+    });
 });
